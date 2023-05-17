@@ -11,7 +11,7 @@ const Nearbyjobs = () => {
   const router = useRouter();
 
   const { data, isLoading, error } = useFetch("search", {
-    query: "React Developer",
+    query: "React Developer in Toronto",
     num_pages: 1,
   });
 
